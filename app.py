@@ -361,7 +361,7 @@ st.markdown(
 MODEL_PATH = 'NeuralNetwork_tuned.pkl'
 SCALER_PATH = 'scaler.pkl'
 # เปลี่ยนไปใช้ไฟล์ต้นฉบับ
-COMPARISON_DATA_PATH = r'C:\Users\Win11\OneDrive - Walailak University\Documents\JupyterProject\machine_ประมง.csv'
+COMPARISON_DATA_PATH = 'machine_data.csv'
 
 try:
     # โหลดโมเดล (MLPRegressor/NN) และ Scaler
